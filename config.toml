@@ -1,0 +1,74 @@
+baseURL = "http://goodhat.space/"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "zh-cn"
+hasCJKLanguage = true 
+
+title = "好帽子 Goodhat"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+[author]
+  name = "好帽子 Goodhat"
+  email = "goodhatchou@gmail.com"
+  link = "/about"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+
+  favicon = "/img/favicon.ico"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 4
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
+
+[deployment]
+    order = [".jpg$", ".gif$"]
+
+    [[deployment.targets]]
+        name = "goodhat-blog"
+        URL = "s3://goodhat-blog?region=us-east-1"
