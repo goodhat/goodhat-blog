@@ -21,6 +21,16 @@ theme = "LoveIt"
 
   favicon = "/img/favicon.ico"
 
+[params.home]
+  [params.home.profile]
+    social = true
+    avatarURL = "/logo.png"
+[params.social]
+  GitHub = "goodhat"
+  Linkedin = ""
+  Instagram = "rimoumou"
+  Facebook = "goodhatchou"
+  
 [menu]
   [[menu.main]]
     identifier = "about"
