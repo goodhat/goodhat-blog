@@ -1,2 +1,2 @@
 # goodhat-blog
-This repository is for versioning [my blog](https://goodhat.space). It is built by Hugo, and currently host AWS S3.
+This repository is for versioning [my blog](https://goodhat.space). It is built by Hugo, and currently host on AWS S3.
