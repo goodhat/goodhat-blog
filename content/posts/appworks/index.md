@@ -2,12 +2,15 @@
 title: "AppWorks Blockchain Program Batch 心得"
 date: 2023-07-17T19:02:17+08:00
 draft: false
-tags: ["雜記"]
+tags: ["appworks", "雜記"]
+featuredImage: "appworks.png"
 ---
 
-> 反正我本來就是要摸透這頭大象。
-
 最近上完了 AppWorks Blockchain Program Batch #2（[第三屆](https://school.appworks.tw/blockchain-program-batch-3/)的報名已經開跑了），這是個為期 18 週的課程，前半部分會從基礎的區塊鏈知識開始教，然後學習智能合約的語法；後半部分會學習兩大知名 DeFi 專案：Uniswap 和 Compound，還有一些著名的資安攻擊事件。短短幾句話看似就帶過整個課程大綱，但實際內容只能用非常紮實來形容！我在上這門課程之前，其實已經有自學過一點智能合約，也曾在區塊鏈公司打工學習，甚至 Uniswap 和 Compound 的合約也都有觀摩過。然而即使是這樣的背景，我在這 18 週中仍然收穫頗豐，也更激起我對這塊領域的求知慾。打鐵趁熱，趕緊我對這門課的心得寫下來。
+
+<!--more-->
+
+> 反正我本來就是要摸透這頭大象。
 
 ## 學習釣魚，學習摸大象
 
